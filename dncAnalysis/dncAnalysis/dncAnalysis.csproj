@@ -5,4 +5,17 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="FiddlerCore">
+      <HintPath>..\..\Dlls\FiddlerCore.dll</HintPath>
+    </Reference>
+    <Reference Include="Ionic.Zip.Reduced">
+      <HintPath>..\..\Dlls\Ionic.Zip.Reduced.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
